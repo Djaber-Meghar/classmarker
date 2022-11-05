@@ -1,0 +1,1339 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>ClassMarker API and Webhook Reference</title>
+    <link rel="shortcut icon" href="https://www.classmarker.com/online-testing/docs/images/favicon-4f689d3d.ico"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-791178814"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-791178814'); </script>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #FFFFFF;
+}
+.highlight .sr {
+  color: #ff7f21;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #ff7f21;
+}
+.highlight .cm {
+  color: #6b7582;
+}
+.highlight .cp {
+  color: #6b7582;
+}
+.highlight .c1 {
+  color: #6b7582;
+}
+.highlight .cs {
+  color: #6b7582;
+}
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cpf {
+  color: #6b7582;
+}
+.highlight .err {
+  color: #6b7582;
+}
+.highlight .gr {
+  color: #6b7582;
+}
+.highlight .gt {
+  color: #6b7582;
+}
+.highlight .gd {
+  color: #F04733;
+}
+.highlight .gi {
+  color: #F04733;
+}
+.highlight .ge {
+  color: #F04733;
+}
+.highlight .kc {
+  color: #4cc5b7;
+}
+.highlight .kd {
+  color: #4cc5b7;
+}
+.highlight .kr {
+  color: #4cc5b7;
+}
+.highlight .no {
+  color: #4cc5b7;
+}
+.highlight .kt {
+  color: #4cc5b7;
+}
+.highlight .mf {
+  color: #ff7f21;
+}
+.highlight .mh {
+  color: #ff7f21;
+}
+.highlight .il {
+  color: #ff7f21;
+}
+.highlight .mi {
+  color: #ff7f21;
+}
+.highlight .mo {
+  color: #ff7f21;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ff7f21;
+}
+.highlight .sc {
+  color: #ff7f21;
+}
+.highlight .se {
+  color: #ff7f21;
+}
+.highlight .ss {
+  color: #ff7f21;
+}
+.highlight .sd {
+  color: #FFFFFF;
+}
+.highlight .s2 {
+  color: #FFFFFF;
+}
+.highlight .sb {
+  color: #FFFFFF;
+}
+.highlight .sh {
+  color: #FFFFFF;
+}
+.highlight .si {
+  color: #FFFFFF;
+}
+.highlight .sx {
+  color: #FFFFFF;
+}
+.highlight .s1 {
+  color: #FFFFFF;
+}
+.highlight .s, .highlight .sa, .highlight .dl {
+  color: #FFFFFF;
+}
+.highlight .o {
+  color: #FFFFFF;
+}
+.highlight .na {
+  color: #bed4f1;
+}
+.highlight .nc {
+  color: #bed4f1;
+}
+.highlight .nd {
+  color: #bed4f1;
+}
+.highlight .ne {
+  color: #bed4f1;
+}
+.highlight .nf, .highlight .fm {
+  color: #bed4f1;
+}
+.highlight .vc {
+  color: #ff7f21;
+}
+.highlight .nn {
+  color: #ff7f21;
+}
+.highlight .ni {
+  color: #ff7f21;
+}
+.highlight .bp {
+  color: #bed4f1;
+}
+.highlight .vg {
+  color: #bed4f1;
+}
+.highlight .vi {
+  color: #bed4f1;
+}
+.highlight .nv, .highlight .vm {
+  color: #bed4f1;
+}
+.highlight .w {
+  color: #bed4f1;
+}
+.highlight {
+  color: #bed4f1;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #bed4f1;
+}
+.highlight .nl {
+  color: #bed4f1;
+}
+.highlight .ow {
+  color: #ff7f21;
+}
+.highlight .nt {
+  color: #ff7f21;
+}
+.highlight .k, .highlight .kv {
+  color: #ff7f21;
+}
+.highlight .kn {
+  color: #ff7f21;
+}
+.highlight .kp {
+  color: #ff7f21;
+}
+
+    </style>
+    <link href="https://www.classmarker.com/online-testing/docs/stylesheets/screen-1ed06597.css" rel="stylesheet" media="screen" />
+    <link href="https://www.classmarker.com/online-testing/docs/stylesheets/print-39594b53.css" rel="stylesheet" media="print" />
+      <script src="https://www.classmarker.com/online-testing/docs/javascripts/all-f20fa3ed.js"></script>
+  </head>
+
+  <body class="webhooks webhooks_index" data-languages="[]">
+    <a href="index.html#" id="nav-button">
+      <span>
+        NAV
+        <img src="https://www.classmarker.com/online-testing/docs/images/navbar-cad8cdcb.png" alt="" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <a href="../index.html">
+        <img src="https://www.classmarker.com/online-testing/docs/images/logo-f1fac31e.png" class="logo" alt="" />
+      </a>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <ul id="toc" class="toc-list-h1">
+			<li>
+			  <a href="index.html#classmarker-webhooks" class="toc-h1 toc-link" data-title="ClassMarker webhooks">ClassMarker webhooks</a>
+          </li>
+			<li>
+			  <a href="index.html#get-started" class="toc-h1 toc-link" data-title="Get started">Get started</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="index.html#add-the-webhook-code-to-your-app" class="toc-h2 toc-link" data-title="Add the webhook code to your app">Add the webhook code to your app</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#create-your-webhook" class="toc-h2 toc-link" data-title="Create your webhook">Create your webhook</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#test-your-webhook" class="toc-h2 toc-link" data-title="Test your webhook">Test your webhook</a>
+
+					  <ul class="toc-list-h3">
+							<li>
+								<a href="index.html#server-response" class="toc-h3 toc-link" data-title="Server response">Server response</a>
+							</li>
+					</ul>
+
+				</li>
+                  <li>
+                    <a href="index.html#assign-the-webhook-to-a-group-or-link" class="toc-h2 toc-link" data-title="Assign the webhook to a group or link">Assign the webhook to a group or link</a>
+
+
+				</li>
+              </ul>
+          </li>
+			<li>
+			  <a href="index.html#example-code" class="toc-h1 toc-link" data-title="Example code">Example code</a>
+          </li>
+			<li>
+			  <a href="index.html#checking-for-updated-results" class="toc-h1 toc-link" data-title="Checking for updated results">Checking for updated results</a>
+          </li>
+			<li>
+			  <a href="index.html#response-format" class="toc-h1 toc-link" data-title="Response format">Response format</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="index.html#html-formatting-in-exam-questions-and-feedback" class="toc-h2 toc-link" data-title="HTML formatting in exam questions and feedback">HTML formatting in exam questions and feedback</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#response-object" class="toc-h2 toc-link" data-title="Response object">Response object</a>
+
+					  <ul class="toc-list-h3">
+							<li>
+								<a href="index.html#group-results" class="toc-h3 toc-link" data-title="Group results">Group results</a>
+							</li>
+							<li>
+								<a href="index.html#link-results" class="toc-h3 toc-link" data-title="Link results">Link results</a>
+							</li>
+							<li>
+								<a href="index.html#questions" class="toc-h3 toc-link" data-title="Questions">Questions</a>
+							</li>
+							<li>
+								<a href="index.html#category-results" class="toc-h3 toc-link" data-title="Category results">Category results</a>
+							</li>
+					</ul>
+
+				</li>
+              </ul>
+          </li>
+			<li>
+			  <a href="index.html#send-exam-results-manually" class="toc-h1 toc-link" data-title="Send exam results manually">Send exam results manually</a>
+          </li>
+			<li>
+			  <a href="index.html#url-for-viewing-results" class="toc-h1 toc-link" data-title="URL for viewing results">URL for viewing results</a>
+          </li>
+			<li>
+			  <a href="index.html#failed-payload-retry-rules" class="toc-h1 toc-link" data-title="Failed payload retry rules">Failed payload retry rules</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="index.html#failed-webhook-scenario" class="toc-h2 toc-link" data-title="Failed webhook scenario">Failed webhook scenario</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#failed-attempt-reset" class="toc-h2 toc-link" data-title="Failed attempt reset">Failed attempt reset</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#inactive-webhooks" class="toc-h2 toc-link" data-title="Inactive webhooks">Inactive webhooks</a>
+
+
+				</li>
+                  <li>
+                    <a href="index.html#email-alerts" class="toc-h2 toc-link" data-title="Email alerts">Email alerts</a>
+
+
+				</li>
+              </ul>
+          </li>
+			<li>
+			  <a href="index.html#how-to-verify-webhook-payloads" class="toc-h1 toc-link" data-title="How to verify webhook payloads">How to verify webhook payloads</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="index.html#troubleshooting" class="toc-h2 toc-link" data-title="Troubleshooting">Troubleshooting</a>
+
+
+				</li>
+              </ul>
+          </li>
+
+	  </ul>
+        <ul class="toc-footer">
+            <li><a href="https://www.classmarker.com/online-testing/docs/api" class="toc-h1 toc-link" data-title="API">API</a></li>
+            <li><a href="https://www.classmarker.com/online-testing/docs/integration" class="toc-h1 toc-link" data-title="Integration">Integration</a></li>
+            <li><a href="../index.html" class="toc-h1 toc-link" data-title="Developer home">Back to Developer home</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+		<h1 id='classmarker-webhooks'>ClassMarker webhooks</h1>
+<blockquote>
+<p>Feeling a bit lost? Have a quick look over the <a href="https://www.classmarker.com/online-testing/docs/api#classmarker-concepts">ClassMarker concepts</a>.</p>
+</blockquote>
+
+<p>You can use ClassMarker webhooks to receive exam results in real time. You generate, view and manage your ClassMarker webhook in your <a href="../../../index.html">ClassMarker account</a>.</p>
+
+<p>ClassMarker webhooks are built to allow developers to download and store results in their own databases. See our <a href="https://github.com/classmarker/">code examples in GitHub</a>, including PHP code and database table schemas to help get you started or as a guide for coding in other languages.</p>
+
+<aside class="notice">The ClassMarker API and webhooks work with the same exam results data, so you can use the same database schema design to store your results for both.</aside>
+
+<p>When receiving exam results using ClassMarker webhooks, results are returned from their respective groups or links, depending on how they were taken.</p>
+
+<aside class="notice">For a recap of how groups and links work in ClassMarker, read the explanation about giving access to exams <a href="../../manual/index.html#assign">here</a>.</aside>
+<h1 id='get-started'>Get started</h1><h2 id='add-the-webhook-code-to-your-app'>Add the webhook code to your app</h2>
+<p>Add your webhook code to an app at a publicly accessible URL on your server (which you should keep a secret).</p>
+
+<aside class="notice">For tips on creating the webhook code, see <a href="index.html#example-code">Example code</a>.
+</aside>
+<h2 id='create-your-webhook'>Create your webhook</h2>
+<ol>
+<li>Log in to your ClassMarker account.</li>
+<li>Navigate to <strong>My Account &gt; Webhooks / API Keys</strong>.</li>
+<li>In the <strong>Webhooks</strong> tab, click <strong>New Webhook +</strong>.</li>
+<li>Enter the values for the webhook:
+
+<ul>
+<li>Specify a name</li>
+<li>Add your publicly accessible URL to the endpoint field</li>
+<li>Set other options to include as needed:
+
+<ul>
+<li>Questions, responses and category results</li>
+<li>Unique link ID for links</li>
+<li>URL for viewing results</li>
+</ul></li>
+</ul></li>
+<li>Select the <strong>Save Webhook Settings</strong> button.</li>
+<li>Copy the webhook secret phrase created when you generated the webhook in ClassMarker and replace it in your app (see  <code>YOUR_CLASSMARKER_WEBHOOK_SECRET_PHRASE</code> in the <a href="https://www.classmarker.com/online-testing/docs/webhook-code">code examples</a>).</li>
+</ol>
+<h2 id='test-your-webhook'>Test your webhook</h2>
+<ol>
+<li>In ClassMarker, Check the <strong>Verify on Save</strong> checkbox.</li>
+<li>Select the <strong>Save Webhook Settings</strong> button.</li>
+</ol>
+
+<aside class="success">If validation completes successfully, ClassMarker returns a 2XX response.</aside>
+
+<p>If you receive a 2XX header response from your server, your webhook is active and you can select it when assigning exams to be taken (such as a 200 response, or a 404 response if your endpoint URL is incorrect).</p>
+<h3 id='server-response'>Server response</h3>
+<p>Your server should respond with a 200 or any 2XX response code. No response body is required.</p>
+
+<p>If a 2XX is not received, the webhook is <a href="index.html#failed-payload-retry-rules">retried</a>.</p>
+
+<p>To verify the payload from ClassMarker, encrypt your JSON payload with your unique webhook secret.</p>
+
+<p>See <a href="index.html#how-to-verify-webhook-payloads">How to verify webhook payloads</a>.</p>
+
+<p><strong>Testing code locally?</strong></p>
+
+<p>You may find <a href="https://ngrok.com/">https://ngrok.com/</a> useful to setup a secure URL to your localhost server.</p>
+<h2 id='assign-the-webhook-to-a-group-or-link'>Assign the webhook to a group or link</h2>
+<p>The final step is to assign the webhook to a group or link, either when assigning an exam or by updating an existing exam&#39;s settings in your ClassMarker account.</p>
+
+<p>You can use the same webhook for all your groups and links or create multiple webhooks for separate groups and links.</p>
+
+<aside class="success">When you have completed webhook testing successfully and the webhook is assigned, your webhook endpoint URL receives the exam results in real time.</aside>
+<h1 id='example-code'>Example code</h1>
+<p>You can find code examples for different languages in our <a href="https://www.classmarker.com/online-testing/docs/webhook-code">Webhook code examples</a> page.</p>
+
+<p>You can also browse through more examples in our GitHub repository:</p>
+
+<p>PHP: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-php">https://github.com/classmarker/retrieve-quiz-results-webhooks-php</a>  </p>
+
+<p>Ruby: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-ruby">https://github.com/classmarker/retrieve-quiz-results-webhooks-ruby</a></p>
+
+<p>Python: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-python">https://github.com/classmarker/retrieve-quiz-results-webhooks-python</a></p>
+
+<p>Go: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-go">https://github.com/classmarker/retrieve-quiz-results-webhooks-go</a></p>
+
+<p>Node <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-node">https://github.com/classmarker/retrieve-quiz-results-webhooks-node</a></p>
+
+<p>Java: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-java">https://github.com/classmarker/retrieve-quiz-results-webhooks-java</a></p>
+
+<p>C#: <a href="https://github.com/classmarker/retrieve-quiz-results-webhooks-csharp">https://github.com/classmarker/retrieve-quiz-results-webhooks-csharp</a></p>
+<h1 id='checking-for-updated-results'>Checking for updated results</h1>
+<p>After exams are completed (and you have received the original results payload), the results may change, so you need to build some logic into your script to check for this.</p>
+
+<p>The results may change due to the following scenarios:</p>
+
+<ol>
+<li>The exam requires grading (essay question types only).</li>
+<li>The exam is re-graded manually (administrators may want to change points for an answer).</li>
+</ol>
+
+<p>In both cases, exam givers can <a href="index.html#send-exam-results-manually">manually resend results</a> via the webhook (from the results pages after grading) to update your system with the upgraded score.</p>
+
+<p>We recommend that when you build your script to receive test results via webhooks, it first checks if the result already exists and updates it, rather then inserting it again.</p>
+
+<p>You can use the fields listed below to check if a test result already exists in your database.</p>
+
+<p>For <strong>groups</strong>, these four values together are unique per test, per user:</p>
+
+<ul>
+<li><code>user_id</code></li>
+<li><code>test_id</code></li>
+<li><code>group_id</code></li>
+<li><code>time_started</code><br></li>
+</ul>
+
+<p>This is because the same exam can be assigned to multiple groups, so you need to check the group ID along with the test ID (the same user can take the same exam under multiple groups).</p>
+
+<p>For <strong>links</strong>, you only need to check a single field for unique link results:</p>
+
+<ul>
+<li><code>link_result_id</code></li>
+</ul>
+<h1 id='response-format'>Response format</h1><h3 id='html-formatting-in-exam-questions-and-feedback'>HTML formatting in exam questions and feedback</h3>
+<p>Questions (including answer options) and feedback fields can contain HTML formatting as set by administrators in our WYSIWYG editors (e.g. span, br, b, i, u, a, img). These HTML tags will be sent as plain HTML ready for display on the web.</p>
+
+<p>Any non-HTML formatting tags will be turned into HTML entities (so they will display the HTML tags rather than pass them). For example, a question might ask &quot;What HTML tag is this: &lt;br&gt;?&quot;. This will display the break tag, not create a line break.</p>
+
+<p>Because users can type text responses in some question types, such as free text or essay questions, you must convert special characters in this text to HTML entities so HTML is displayed on the page as HTML tags and not parsed.</p>
+<h2 id='response-object'>Response object</h2>
+<p>The following fields appear in all responses:</p>
+
+<table><thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>payload_type</code></td>
+<td>Group or link</td>
+</tr>
+<tr>
+<td><code>payload_status</code></td>
+<td><code>live</code> when showing actual results, <code>verify</code> when setting up the webhook in your account</td>
+</tr>
+</tbody></table>
+<h3 id='group-results'>Group results</h3>
+<blockquote>
+<p>Example response - single exam result taken by a user registered in a group</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"payload_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"single_user_test_results_group"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"payload_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"live"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"test_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">103</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"test_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sample Test Name"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"group"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"group_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">104</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"group_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sample Group Name"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"3276524"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"first"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Mary"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"last"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Williams"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"mary@example.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">75</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">9</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">12</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"requires_grading"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Yes"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time_started"</span><span class="p">:</span><span class="w"> </span><span class="mi">1436263102</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time_finished"</span><span class="p">:</span><span class="w"> </span><span class="mi">1436263702</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"duration"</span><span class="p">:</span><span class="w"> </span><span class="s2">"00:05:40"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"percentage_passmark"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"passed"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Thanks for completing our Exam!"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"give_certificate_only_when_passed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"certificate_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.classmarker.com/pdf/certificate/SampleCertificate.pdf"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"certificate_serial"</span><span class="p">:</span><span class="w"> </span><span class="s2">"CLPPYQSBSY-ZZVKJGQH-XHWMMRCHYT"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"view_results_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.classmarker.com/view/results/?required_parameters_here"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"questions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3542854</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"multiplechoice"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What is the first step for treating a skin burn?"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Apply oil or butter"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Nothing should be done"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Soak in water for five minutes"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Apply antibiotic ointment"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Great, and remember, never use oil on Skin burns!"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">10254859</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"multiplechoice"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Select the options you should take when the fire alarm sounds:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Call you manager to see if you can leave the building"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exit the building immediately"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Use the Lifts to exit faster"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Use the stairwell to exit"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B,D"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"partial_correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"That is incorrect, the correct answers are A and C"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5485962</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"truefalse"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Our Support staff work 7 day a week"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"True"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"False"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"That is correct, we provide 7 day support"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3896152</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"freetext"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Our company website is: www.______.com"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"exact_match"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"www.example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.example.com"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Correct, always send our customers to our main website: www.example.com"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6403973</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"matching"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Match the options below:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Product faulty"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exchange or Refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Customer mis-used and broke product"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"No refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Customer broke factory seal"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"No refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">In</span><span class="w"> </span><span class="err">this</span><span class="w"> </span><span class="err">case</span><span class="p">,</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">exam</span><span class="w"> </span><span class="err">administrator</span><span class="w"> </span><span class="err">has</span><span class="w"> </span><span class="err">set</span><span class="w"> </span><span class="err">two</span><span class="w"> </span><span class="err">matches</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">equal</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">same</span><span class="w"> </span><span class="err">clue</span><span class="w"> </span><span class="s2">"B"</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Incorrect product size purchased"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exchange"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"D"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"E"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Have customer removed by security"</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">This</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">an</span><span class="w"> </span><span class="err">incorrect</span><span class="w"> </span><span class="err">match</span><span class="w"> </span><span class="err">with</span><span class="w"> </span><span class="err">no</span><span class="w"> </span><span class="err">corresponding</span><span class="w"> </span><span class="err">clue</span><span class="p">,</span><span class="w"> </span><span class="err">these</span><span class="w"> </span><span class="err">can</span><span class="w"> </span><span class="err">be</span><span class="w"> </span><span class="err">used</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">help</span><span class="w"> </span><span class="err">make</span><span class="w"> </span><span class="err">matching</span><span class="w"> </span><span class="err">questions</span><span class="w"> </span><span class="err">more</span><span class="w"> </span><span class="err">difficult</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"partial_correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Please check your incorrect matches"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">444564</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"essay"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Describe some advantages of having test papers graded instantly:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Users can see their results instantly, grading is accurate, save time from manual grading"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"requires_grading"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"custom_feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generic feedback here"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">442810</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"grammar"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parkked over their!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parked over there!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parked over there!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Well done!"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"category_results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Health and Safety"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mf">66.7</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exit Procedure"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"General Knowledge"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sales"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p>The following fields appear in the <code>result</code> section of a group payload:</p>
+
+<table><thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>user_id</code></td>
+<td>Each registered user has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>first</code></td>
+<td>First name.</td>
+</tr>
+<tr>
+<td><code>last</code></td>
+<td>Last name.</td>
+</tr>
+<tr>
+<td><code>email</code></td>
+<td>Users email.</td>
+</tr>
+<tr>
+<td><code>test_id</code></td>
+<td>Each exam has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>group_id</code></td>
+<td>Each group has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>percentage</code></td>
+<td>0 - 100 can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>points_scored</code></td>
+<td>Total points scored. Can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>points_available</code></td>
+<td>Total points available. Can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>test_id</code></td>
+<td>Each exam has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>time_started</code></td>
+<td>Because registered users can retake exams (if allowed), you can use this timestamp to understand if this is a new or updated (regraded) test result. This timestamp is never updated, so if you receive the same timestamp twice for the same user and exam, you know the results have been resent manually.</td>
+</tr>
+<tr>
+<td><code>time_finished</code></td>
+<td>Can update on re-sends (for example, an exam is re-opened by an administrator to give a user more time).</td>
+</tr>
+<tr>
+<td><code>duration</code></td>
+<td>Exam duration.</td>
+</tr>
+<tr>
+<td><code>passed</code></td>
+<td><code>true</code> or <code>false</code>; <code>true</code> is returned if no <strong>Passmark</strong> is set for an exam.</td>
+</tr>
+<tr>
+<td><code>feedback</code></td>
+<td>Optional exam feedback, as set by administrators.</td>
+</tr>
+<tr>
+<td><code>percentage_passmark</code></td>
+<td>Percent required to pass exam.</td>
+</tr>
+<tr>
+<td><code>requires_grading</code></td>
+<td><code>Yes</code> or <code>No</code>. Only exams that include essay style questions require grading. Score may not be considered final.</td>
+</tr>
+<tr>
+<td><code>certificate_url</code></td>
+<td>Unique Link to download users certificate.</td>
+</tr>
+<tr>
+<td><code>certificate_serial</code></td>
+<td>Unique serial number for certificate.</td>
+</tr>
+<tr>
+<td><code>give_certificate_only_when_passed</code></td>
+<td><code>true</code> or <code>false</code>; exams can be set up to disallow certificate downloading if a user fails the exam.</td>
+</tr>
+<tr>
+<td><code>view_results_url</code></td>
+<td>Unique URL per exam result for viewing formatted exam results in ClassMarker (without being logged into a ClassMarker account). You need to set up an access control password for viewing access (see <a href="index.html#url-for-viewing-results">URL for viewing results</a> for details).</td>
+</tr>
+</tbody></table>
+<h3 id='link-results'>Link results</h3>
+<blockquote>
+<p>Example response - single exam result taken via a link</p>
+</blockquote>
+<div class="highlight"><pre class="highlight json tab-json"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"payload_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"single_user_test_results_link"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"payload_status"</span><span class="p">:</span><span class="w"> </span><span class="s2">"live"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"test"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"test_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"test_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sample Test Name"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"link"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"link_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">101</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"link_name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sample Link Name"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"link_url_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"sample_quiz_id_123"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"link_result_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">8127364</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"first"</span><span class="p">:</span><span class="w"> </span><span class="s2">"John"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"last"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Smith"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"john@example.com"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mf">75.0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mf">9.0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mf">12.0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"requires_grading"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Yes"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time_started"</span><span class="p">:</span><span class="w"> </span><span class="mi">1436263522</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"time_finished"</span><span class="p">:</span><span class="w"> </span><span class="mi">1436264122</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"duration"</span><span class="p">:</span><span class="w"> </span><span class="s2">"00:05:20"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"percentage_passmark"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"passed"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Thanks for completing our Exam!"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"give_certificate_only_when_passed"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"certificate_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.classmarker.com/pdf/certificate/SampleCertificate.pdf"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"certificate_serial"</span><span class="p">:</span><span class="s2">"CLPPYQSBSY-ZZVKJGQH-XHWMMRCHYT"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"view_results_url"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.classmarker.com/view/results/?required_parameters_here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"access_code_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What is your Employee ID?"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"access_code_used"</span><span class="p">:</span><span class="w"> </span><span class="s2">"12345"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Which sales department are you assigned to?"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info_answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"New York Product 7 Divisiaon"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info2_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Question 2 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info2_answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Answer 2 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info3_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Question 3 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info3_answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Answer 3 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info4_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Question 4 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info4_answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Answer 4 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info5_question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Question 5 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"extra_info5_answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Extra Information Answer 5 here"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"cm_user_id"</span><span class="p">:</span><span class="w"> </span><span class="s2">"123456"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"ip_address"</span><span class="p">:</span><span class="w"> </span><span class="s2">"192.168.0.1"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"questions"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3542854</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"multiplechoice"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"What is the first step for treating a skin burn?"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Apply oil or butter"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Nothing should be done"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Soak in water for five minutes"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Apply antibiotic ointment"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"C"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Great, and remember, never use oil on Skin burns!"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">10254859</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"multiplechoice"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Select the options you should take when the fire alarm sounds:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Call you manager to see if you can leave the building"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exit the building immediately"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Use the Lifts to exit faster"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Use the stairwell to exit"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B,D"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Note</span><span class="w"> </span><span class="err">this</span><span class="w"> </span><span class="err">multiple</span><span class="w"> </span><span class="err">choice</span><span class="w"> </span><span class="err">question</span><span class="w"> </span><span class="err">contains</span><span class="w"> </span><span class="mi">2</span><span class="w"> </span><span class="err">correct</span><span class="w"> </span><span class="err">options.</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w">    </span><span class="err">//</span><span class="w"> </span><span class="err">Only</span><span class="w"> </span><span class="err">one</span><span class="w"> </span><span class="err">option</span><span class="w"> </span><span class="err">selected</span><span class="p">,</span><span class="w"> </span><span class="err">hence</span><span class="w"> </span><span class="mi">1</span><span class="err">/</span><span class="mi">2</span><span class="w"> </span><span class="err">points</span><span class="w"> </span><span class="err">awarded.</span><span class="w"> </span><span class="err">Format</span><span class="w"> </span><span class="err">for</span><span class="w"> </span><span class="err">multiple</span><span class="w"> </span><span class="err">selected</span><span class="w"> </span><span class="err">options:</span><span class="w"> </span><span class="err">A</span><span class="p">,</span><span class="err">B</span><span class="p">,</span><span class="err">C</span><span class="w"> </span><span class="err">etc.</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"partial_correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"That is incorrect, the correct answers are A and C"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5485962</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"truefalse"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Our Support staff work 7 day a week"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="s2">"True"</span><span class="p">,</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="s2">"False"</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"That is correct, we provide 7 day support"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3896152</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"freetext"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Our company website is: www.______.com"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"exact_match"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"www.example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"http://www.example.com"</span><span class="w">
+          </span><span class="p">},</span><span class="w">
+          </span><span class="p">{</span><span class="w">
+            </span><span class="nl">"content"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://www.example.com"</span><span class="w">
+          </span><span class="p">}</span><span class="w">
+        </span><span class="p">]</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"example"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Correct, always send our customers to our main website: www.example.com"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">6403973</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"matching"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Match the options below:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"options"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"A"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Product faulty"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exchange or Refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"B"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Customer mis-used and broke product"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"No refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"C"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Customer broke factory seal"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"No refund"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="p">,</span><span class="w"> </span><span class="err">//</span><span class="w"> </span><span class="err">Note:</span><span class="w"> </span><span class="err">The</span><span class="w"> </span><span class="err">Exam</span><span class="w"> </span><span class="err">administrator</span><span class="w"> </span><span class="err">has</span><span class="w"> </span><span class="err">set</span><span class="w"> </span><span class="err">two</span><span class="w"> </span><span class="err">Matches</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">equal</span><span class="w"> </span><span class="err">the</span><span class="w"> </span><span class="err">same</span><span class="w"> </span><span class="err">Clue</span><span class="w"> </span><span class="s2">"B"</span><span class="err">.</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"B"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"D"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"clue"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Incorrect product size purchased"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exchange"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"correct_option"</span><span class="p">:</span><span class="w"> </span><span class="s2">"D"</span><span class="p">,</span><span class="w">
+          </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"A"</span><span class="w">
+        </span><span class="p">},</span><span class="w">
+        </span><span class="nl">"E"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+          </span><span class="nl">"match"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Have customer removed by security"</span><span class="w">  </span><span class="err">//</span><span class="w"> </span><span class="err">This</span><span class="w"> </span><span class="err">is</span><span class="w"> </span><span class="err">an</span><span class="w"> </span><span class="err">incorrect</span><span class="w"> </span><span class="err">match</span><span class="w"> </span><span class="err">with</span><span class="w"> </span><span class="err">no</span><span class="w"> </span><span class="err">corresponding</span><span class="w"> </span><span class="err">clue.</span><span class="w"> </span><span class="err">Can</span><span class="w"> </span><span class="err">be</span><span class="w"> </span><span class="err">used</span><span class="w"> </span><span class="err">to</span><span class="w"> </span><span class="err">help</span><span class="w"> </span><span class="err">make</span><span class="w"> </span><span class="err">matching</span><span class="w"> </span><span class="err">questions</span><span class="w"> </span><span class="err">more</span><span class="w"> </span><span class="err">difficult.</span><span class="w">
+        </span><span class="p">}</span><span class="w">
+      </span><span class="p">},</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"partial_correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Please check your incorrect matches"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">444564</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"essay"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Describe some advantages of having test papers graded instantly:"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Users can see their results instantly, grading is accurate, save time from manual grading"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"requires_grading"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"custom_feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">""</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Generic feedback here"</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"question_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">442810</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question_type"</span><span class="p">:</span><span class="w"> </span><span class="s2">"grammar"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"question"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parkked over their!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"answer"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parked over there!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"user_response"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The car was parked over there!"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"result"</span><span class="p">:</span><span class="w"> </span><span class="s2">"correct"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"feedback"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Well done!"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">],</span><span class="w">
+  </span><span class="nl">"category_results"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Health and Safety"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mf">66.7</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">6</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">4</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Exit Procedure"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"General Knowledge"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="w">
+    </span><span class="p">},</span><span class="w">
+    </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"category_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Sales"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"percentage"</span><span class="p">:</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_available"</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"points_scored"</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div>
+<p>The following fields appear in the <code>result</code> section of a link payload:</p>
+
+<table><thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>link_result_id</code></td>
+<td>Each link result has a unique link result ID.</td>
+</tr>
+<tr>
+<td><code>first</code></td>
+<td>First name.</td>
+</tr>
+<tr>
+<td><code>last</code></td>
+<td>Last name.</td>
+</tr>
+<tr>
+<td><code>email</code></td>
+<td>Users email.</td>
+</tr>
+<tr>
+<td><code>test_id</code></td>
+<td>Each exam has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>link_id</code></td>
+<td>Each link has a unique ID in ClassMarker.</td>
+</tr>
+<tr>
+<td><code>percentage</code></td>
+<td>0 - 100 can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>points_scored</code></td>
+<td>Total points scored. Can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>points_available</code></td>
+<td>Total points available. Can include 1 decimal place.</td>
+</tr>
+<tr>
+<td><code>time_started</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>time_finished</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>duration</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>passed</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>feedback</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>percentage_passmark</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>requires_grading</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>certificate_url</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>certificate_serial</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>give_certificate_only_when_passed</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>view_results_url</code></td>
+<td>See <a href="index.html#group-results">Group results</a></td>
+</tr>
+<tr>
+<td><code>access_code_question</code></td>
+<td>Question user needs to answer if using access lists.</td>
+</tr>
+<tr>
+<td><code>access_code</code></td>
+<td>Access code used to access test.</td>
+</tr>
+<tr>
+<td><code>extra_info_question</code></td>
+<td>Optional non-graded question asked before exam is started.</td>
+</tr>
+<tr>
+<td><code>extra_info</code></td>
+<td>Users answer 1.</td>
+</tr>
+<tr>
+<td><code>extra_info2_question</code></td>
+<td>Optional non-graded question asked before exam is started.</td>
+</tr>
+<tr>
+<td><code>extra_info2</code></td>
+<td>Users answer 2.</td>
+</tr>
+<tr>
+<td><code>extra_info3_question</code></td>
+<td>Optional non-graded question asked before exam is started.</td>
+</tr>
+<tr>
+<td><code>extra_info3</code></td>
+<td>Users answer 3.</td>
+</tr>
+<tr>
+<td><code>extra_info4_question</code></td>
+<td>Optional non-graded question asked before exam is started.</td>
+</tr>
+<tr>
+<td><code>extra_info4</code></td>
+<td>Users answer 4.</td>
+</tr>
+<tr>
+<td><code>extra_info5_question</code></td>
+<td>Optional non-graded question asked before exam is started.</td>
+</tr>
+<tr>
+<td><code>extra_info5</code></td>
+<td>Users answer 5.</td>
+</tr>
+<tr>
+<td><code>cm_user_id</code></td>
+<td>Optional tracking IDs sent to your system (see <a href="https://www.classmarker.com/online-testing/docs/integration#use-your-own-user-ids-with-classmarker">Use your own user IDs with ClassMarker</a>).</td>
+</tr>
+<tr>
+<td><code>ip_address</code></td>
+<td>Users IP Address.</td>
+</tr>
+</tbody></table>
+<h3 id='questions'>Questions</h3>
+<p>The following fields appear in the <code>questions</code> section of group and link payloads, if <a href="index.html#create-your-webhook">enabled in your webhook settings</a>.</p>
+
+<table><thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>question_id</code></td>
+<td>Each question has a unique ID in ClassMarker</td>
+</tr>
+<tr>
+<td><code>question_type</code></td>
+<td><code>multiplechoice</code>, <code>truefalse</code>, <code>freetext</code>, <code>matching</code>, <code>essay</code>, <code>grammar</code></td>
+</tr>
+<tr>
+<td><code>category_id</code></td>
+<td>Each question can be categorized. Category has a unique ID</td>
+</tr>
+<tr>
+<td><code>points_available</code></td>
+<td>Total points question is worth. Can be to one decimal place</td>
+</tr>
+<tr>
+<td><code>question</code></td>
+<td>Question text. Can contain HTML formatting</td>
+</tr>
+<tr>
+<td><code>options</code></td>
+<td>Contains answer options for question types with multiple options. Can contain HTML formatting</td>
+</tr>
+<tr>
+<td><code>points_scored</code></td>
+<td>Points given for the answer. Can be to one decimal place</td>
+</tr>
+<tr>
+<td><code>user_response</code></td>
+<td>Test taker&#39;s selected option or typed answer. If no response given, this key is not returned</td>
+</tr>
+<tr>
+<td><code>result</code></td>
+<td>Answer result, any of the following: <code>correct</code>, <code>partial_correct</code>, <code>incorrect</code>, <code>requires_grading</code>, <code>unanswered</code></td>
+</tr>
+<tr>
+<td><code>feedback</code></td>
+<td>Feedback for the answer. If no feedback, this key is not returned. Can contain HTML formatting</td>
+</tr>
+<tr>
+<td><code>custom_feedback</code></td>
+<td>Only used for essay questions. Exam givers/admins can add feedback when grading questions</td>
+</tr>
+<tr>
+<td><code>correct_option</code></td>
+<td>One or more correct answers (can be more than one for multiple choice questions)</td>
+</tr>
+</tbody></table>
+<h3 id='category-results'>Category results</h3>
+<p>The following fields appear in the <code>category_results</code> section of group and link payloads, if <a href="index.html#create-your-webhook">enabled in your webhook settings</a>.</p>
+
+<table><thead>
+<tr>
+<th>Key</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>category_id</code></td>
+<td>Each question can be categorized. Category has a unique ID</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>Name given to a category by administrator</td>
+</tr>
+<tr>
+<td><code>percentage</code></td>
+<td>Can be to one decimal place</td>
+</tr>
+<tr>
+<td><code>points_available</code></td>
+<td>Can be to one decimal place</td>
+</tr>
+<tr>
+<td><code>points_scored</code></td>
+<td>Can be to one decimal place</td>
+</tr>
+</tbody></table>
+<h1 id='send-exam-results-manually'>Send exam results manually</h1>
+<p>You can manually send results via your webhook from individual exam results pages, by clicking <strong>Send result to webhook</strong>.</p>
+<h1 id='url-for-viewing-results'>URL for viewing results</h1>
+<p>You can give access to colleagues who need to review formatted exam results (including questions and answers) without a ClassMarker account by sharing the value retrieved in <code>view_results_url</code> (you can see this value in the example responses in the <a href="index.html#response-object">Response object</a> section).</p>
+
+<p>Including this URL is optional and it needs to be enabled in the webhook settings page. Each URL is unique and unguessable.</p>
+
+<p>To enable <code>view_results_url</code>:</p>
+
+<ol>
+<li>In your ClassMarker account, scroll down to the <strong>API</strong> section and click to expand it.</li>
+<li>In <strong>View Results URL - Access Control Settings</strong>, update your control settings as required.</li>
+<li>Select <strong>Update Access Settings</strong>.</li>
+<li>Navigate to <strong>My Account &gt; Webhooks / API Keys</strong>.</li>
+<li>Create or edit a webhook, and check the <strong>View Results URL</strong> option.</li>
+<li>Select <strong>Save Webhook Settings</strong>.</li>
+</ol>
+<h1 id='failed-payload-retry-rules'>Failed payload retry rules</h1>
+<p>We understand getting results back to your system in real time can be critical, which is why ClassMarker retries a failed webhook within minutes of it first failing. This is in case your system has a brief issue at the exact time of the payload delivery. You will receive your results soon after.</p>
+<h2 id='failed-webhook-scenario'>Failed webhook scenario</h2>
+<ol>
+<li>An exam has finished and the first webhook attempt is triggered.</li>
+<li>The webhook fails (a 2XX response is not received) and it is tried for a second time within minutes.</li>
+<li>If the webhook fails a second time, ClassMarker will then reattempt the single exam result webhook once per hour for 72 hours.</li>
+<li>If your server fails to successfully respond to the webhook 1000 times in a row (this includes retry attempts for all results it is trying to send), the webhook will be set to inactive and no longer attempt to deliver new results or retry undelivered results until you activate the webhook again.</li>
+<li>If you have multiple webhooks set up, only the webhook that has failed 1000 times in a row will be set to inactive. All your other webhooks will continue to run as normal.</li>
+</ol>
+<h2 id='failed-attempt-reset'>Failed attempt reset</h2>
+<p>The counter resets to 0 after a successful response. So, for example, if your webhook has failed seven times in a row but then returns a successful 2XX response, the failed requests counter resets to 0.</p>
+<h2 id='inactive-webhooks'>Inactive webhooks</h2>
+<p>When a webhook is inactive, exam results are not sent and not enabled for retry. You need to <a href="index.html#send-exam-results-manually">send those exam results manually</a> from the test results page instead.</p>
+<h2 id='email-alerts'>Email alerts</h2>
+<p>ClassMarker sends an email alert the first time a webhook fails, then periodically on failed attempts until either your webhook endpoint starts returning 2XX responses again, or your webhook becomes inactive, in which case you will be notified it has become inactive.</p>
+<h1 id='how-to-verify-webhook-payloads'>How to verify webhook payloads</h1>
+<p>When a webhook payload is delivered to your system, you can verify it came from ClassMarker by using the secret phrase generated when creating your webhook. Only you and ClassMarker know your secret phrase.</p>
+
+<p>ClassMarker creates a signature (base64 hash using HMAC SHA256) using the JSON payload and your secret phrase, and sends the signature in the HTTP header: <code>X-Classmarker-Hmac-Sha256</code> for you to verify your end.</p>
+
+<p>To verify the payload came from ClassMarker, encrypt your JSON payload with ClassMarker&#39;s webhook secret, as shown in the PHP example you can see by selecting the PHP language tab.</p>
+
+<p>You can find more examples in our GitHub <a href="index.html#example-code">code examples</a>.</p>
+<div class="highlight"><pre class="highlight php tab-php"><code><span class="cp">&lt;?php</span>
+<span class="nb">define</span><span class="p">(</span><span class="s1">'CLASSMARKER_WEBHOOK_SECRET'</span><span class="p">,</span> <span class="s1">'YOUR_CLASSMARKER_WEBHOOK_SECRET_PHRASE'</span><span class="p">);</span>
+<span class="nv">$calculated_signature</span> <span class="o">=</span> <span class="nb">base64_encode</span><span class="p">(</span><span class="nb">hash_hmac</span><span class="p">(</span><span class="s1">'sha256'</span><span class="p">,</span> <span class="nv">$json_data</span><span class="p">,</span> <span class="no">CLASSMARKER_WEBHOOK_SECRET</span><span class="p">,</span> <span class="kc">true</span><span class="p">));</span>
+<span class="nv">$header_hmac_signature</span> <span class="o">=</span> <span class="nv">$_SERVER</span><span class="p">[</span><span class="s1">'HTTP_X_CLASSMARKER_HMAC_SHA256'</span><span class="p">];</span>
+<span class="k">return</span> <span class="p">(</span><span class="nv">$header_hmac_signature</span> <span class="o">==</span> <span class="nv">$calculated_signature</span><span class="p">);</span>
+</code></pre></div><h2 id='troubleshooting'>Troubleshooting</h2>
+<p>Here are some tips to debug payload problems:</p>
+
+<ul>
+<li><p>Debug with a third party website such as <a href="https://webhook.site">https://webhook.site</a>. You can use it to view exam results sent by your webhook.</p>
+
+<ul>
+<li>Go to <a href="https://webhook.site">https://webhook.site</a> to get a unique URL to use as a temporary endpoint URL.</li>
+<li>Follow the instructions in <a href="index.html#create-your-webhook">Create your webhook</a> and <a href="index.html#test-your-webhook">Test your webhook</a> to add your temporary URL to your webhook.</li>
+<li>After saving, you can view the sample example results on <a href="https://webhook.site">https://webhook.site</a>.</li>
+</ul></li>
+<li><p>Check the <code>payload_status</code> field is set to <code>live</code>.</p></li>
+<li><p>Check your system responses, such as with third party website <a href="http://onlinecurl.com/">http://onlinecurl.com/</a>. This may highlight for example, a SSL certificate issue.</p></li>
+</ul>
+
+<p><br/><br/><br/><br/><br/></p>
+
+	  </div>
+      <div class="dark-box">
+      </div>
+    </div>
+
+        <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-473958-2', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+    </script>
+  </body>
+</html>

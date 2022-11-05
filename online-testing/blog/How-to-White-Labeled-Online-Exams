@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<head>
+<title>How to White Label Online Exams - Quiz Maker Blog</title>
+<meta charset="UTF-8">
+<meta name="description" content="How to White Label Online Exams - Quiz Maker Blog. free quiz maker to create online exams.">
+<meta name="keywords" content="Free Quiz Maker, quiz maker, online testing, exams, assessments, employment tests, custom exams.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../../favicon.ico">
+
+<link rel="canonical" href="How-to-White-Labeled-Online-Exams" >
+<meta property="og:type" content="article" >
+<meta property="article:publisher" content="https://www.facebook.com/classmarker/" >
+<meta property="og:locale" content="en_US" >
+<meta property="og:title" content="How to White Label Online Exams - Quiz Maker Blog" >
+<meta property="og:description" content="How to White Label Online Exams - Quiz Maker Blog. free quiz maker to create online exams." >
+<meta property="og:url" content="https://www.classmarker.com/online-testing/blog/How-to-White-Labeled-Online-Exams" >
+<meta property="og:site_name" content="ClassMarker Online Quiz Maker" >
+<meta property="og:image" content="https://www.classmarker.com/img3/promo/classmarker_promo_back_1.jpg" >
+<meta property="og:image:width" content="851" >
+<meta property="og:image:height" content="315" >
+<meta property="og:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
+
+<meta name="twitter:card" content="summary_large_image" >
+<meta name="twitter:description" content="How to White Label Online Exams - Quiz Maker Blog. free quiz maker to create online exams." >
+<meta name="twitter:title" content="How to White Label Online Exams - Quiz Maker Blog" >
+<meta name="twitter:site" content="@classmarker" >
+<meta name="twitter:image" content="https://www.classmarker.com/img3/promo/twitter_card_promo_back_1.jpg" >
+<meta name="twitter:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
+<meta name="twitter:creator" content="@classmarker" >
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "ClassMarker",
+  "url": "https://www.classmarker.com",
+  "logo": "https://www.classmarker.com/img3/retina/quiz-maker3x.jpg",
+  "sameAs": [
+    "https://www.facebook.com/ClassMarker",
+    "https://twitter.com/ClassMarker",
+    "https://www.linkedin.com/company/classmarker-pty-ltd/",
+    "https://www.youtube.com/user/classmarker",
+    "https://www.pinterest.com.au/ClassMarkercom/",
+    "https://www.instagram.com/classmarker/"
+  ]
+}
+</script>
+	    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5DGG58D');</script>
+    <!-- End Google Tag Manager -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-791178814"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-791178814'); </script>
+	<link rel="stylesheet" type="text/css" href="../../css3/home/cmhome.css?v=332" media="all" >
+		<script>
+	var web_root = "/";
+	var webpath_img = "/img3/";
+	var s3_assets_path = "https://";
+	var asset_ref_dir = new Array(
+	    /(0\/)/,
+	    /(1\/)/,
+	    /(2\/)/
+	);
+	var asset_actual_dir = new Array(
+	    'https://0cm.classmarker.com/',
+	    'https://1cm.classmarker.com/',
+	    'https://2cm.classmarker.com/'
+	);
+	</script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" ></head>
+<body>
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DGG58D"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- END Google Tag Manager (noscript) -->
+	<div id="header">
+		<header class="col-full">
+			<div class="h1" itemscope itemtype="http://schema.org/Organization">
+				<a itemprop="url" href="../../index.html">
+					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/quiz-maker1x.jpg" srcset="../../img3/retina/quiz-maker1x.jpg 1x, ../../img3/retina/quiz-maker2x.jpg 2x, ../../img3/retina/quiz-maker3x.jpg 3x" width="205" height="31">
+					<span>ClassMarker Online quiz maker</span>
+				</a>
+			</div>
+
+							<div class="header-buttons">
+				<a class="register" href="../../register/index.html">Register</a>
+				<a class="login" href="../../index.html">Log in</a>
+				</div>
+						</header>
+
+		<div class="nav">
+			<nav class="col-full">
+				<ul id="menu">
+					<li><a href="../../index.html">Home</a></li>
+					<li><a href="../how-to-create-online-quiz/index.html">Take a Tour</a></li>
+					<li><a href="../price/index.html">Pricing</a></li>
+					<li><a href="../faq/index.html">FAQ</a></li>
+					<li><a href="../contact-us/index.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+
+
+
+
+
+<div class="main3 features-user-manual-main-post">
+	<div class="col-full">
+
+
+	<div class="clearheight"></div>
+
+
+
+	
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="main white-bg-content2">
+	<div class="col-full">
+		<div class="blog-box">
+
+
+
+		<div class="blog_items blog-width">
+
+
+
+<article><h1>How to White Label Online Exams</h1><p class="date">Fri 22nd Sep 2017<span class="f-right"><a href="index.html">&lt; Back to Blogs and Tutorials</a></span></p><div class="dotted"></div>You can use ClassMaker to set up your white labeled solution for giving online exams. Test takers will remain on your website from Taking Exams and Viewing Results to downloading Certificates.<br />
+<br />
+If you already use ClassMarker, you will know how to create and assign Tests. If not, you can review the following Link on this topic when you are ready.<br />
+<strong>Groups vs Links explained:</strong> <a href="../manual/index.html#assign" class="popup">Learn How to give online exams</a>.<br />
+<strong>NB:</strong> You will use our <strong>Links</strong> option for your white label online exam solution.<br />
+<br />
+<h4>Step by Step</h4><i>We will presume you have Created your exams in ClassMarker at this point.</i><br />
+<ol><li><a href="How-to-White-Labeled-Online-Exams#L1">Embedding Exams in Your website</a></li><li><a href="How-to-White-Labeled-Online-Exams#L2">Add your own Branding to online Exams</a></li><li><a href="How-to-White-Labeled-Online-Exams#L3">Tracking Test Takers</a></li><li><a href="How-to-White-Labeled-Online-Exams#L4">Viewing Results</a></li><li><a href="How-to-White-Labeled-Online-Exams#L5">Custom Certificates</a></li></ol><br />
+<br />
+<a id="L1"></a><h4>1. Embedding Exams in Your website</h4>Once your exams are ready to give, you will assign them to a <strong>Link</strong> each (This will give you the Embed code and a Direct link to your exam, it's as easy as embedding YouTube video!).<br />
+<br />
+<i><strong>Sample Embed Code</strong></i><br />
+You can <strong>copy and paste</strong> this code into your website to view how a sample Test will look and can be taken directly from your website.<br />
+<br />
+<div style="background: #f8f8f8; overflow:scroll;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><span style="margin: 0; line-height: 125%"><span style="color: #204a87; font-weight: bold">&lt;iframe</span> <span style="color: #c4a000">src=</span><span style="color: #4e9a06">&quot;https://www.classmarker.com/online-test/start/?quiz=yba59c342adc8815&amp;iframe=1&quot;</span> <span style="color: #c4a000">frameborder=</span><span style="color: #4e9a06">&quot;0&quot;</span> <span style="color: #c4a000">style=</span><span style="color: #4e9a06">&quot;width:100%;max-width:700px;&quot;</span> <span style="color: #c4a000">height=</span><span style="color: #4e9a06">&quot;800&quot;</span><span style="color: #204a87; font-weight: bold">&gt;&lt;/iframe&gt;</span></span></div><br />
+<i>- You can change the height and width of the iFrame to your requirements.</i><br />
+<br />
+<br />
+<br />
+<a id="L2"></a><h4>2. Add your own Branding to online Exams</h4>You can create a <a href="../manual/index.html#themes" class="popup">Custom Online Exam Theme</a> to Brand and color your Tests as well. This will also remove ClassMarker references from Exam pages.<br />
+<img src="../../img3/user_manual/theme-2.jpg" class="img-shadow" alt="ClassMarker Quiz Maker" /><br />
+<br />
+<br />
+<a id="L3"></a><h4>3. Track Test Takers between your Website and ClassMarker</h4>When a Test taker starts their Test, they will go to the webpage you have your Exam embed on.<br />
+<br />
+You can pass a User's Name, Email, and multiple other tracking codes, such as their User_id from your database.<br />
+<br />
+All you need to do is append their details to the Start link (within the iFrame - see code examples below) and they will be saved along with their Test results and can be returned to you in real time.<br />
+<br />
+Our <a href="../api/webhooks/index.html#viewresultsurl" class="popup">Webhooks</a> or <a href="../api/developers/index.html#viewresultsurl" class="popup">API</a> options allow you to securely receive results from ClassMarker and save back in your website. Tracking codes included.<br />
+<br />
+<div style="background: #f8f8f8; overflow:visible;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.5em .6em 0 .6em;margin:20px 0;line-height: 125%;">	https://www.classmarker.com/online-test/start?<span class="param">quiz</span>={QUIZ_ID}<br />
+	<span class="param">&amp;cm_fn</span>=John<br />
+	<span class="param">&amp;cm_ln</span>=Smith<br />
+	<span class="param">&amp;cm_e</span>=john@example.com<br />
+	<span class="param">&amp;cm_user_id</span>=123<br />
+	<span class="param">&amp;cm_access_list_item</span>=456<br />
+</div><br />
+<br />
+<div style="background: #f8f8f8; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><span style="margin: 0; line-height: 125%"><span style="color: #204a87; font-weight: bold">&lt;iframe</span> <span style="color: #c4a000">src=</span><span style="color: #4e9a06">&quot;https://www.classmarker.com/online-test/start?quiz={QUIZ_ID}</span><br />
+<span style="color: #4e9a06">&amp;cm_fn=John&amp;cm_ln=Smith&amp;cm_e=john@example.com</span><br />
+<span style="color: #4e9a06">&amp;cm_user_id=123&amp;cm_access_list_item=456&quot;</span><br />
+<span style="color: #c4a000">frameborder=</span><span style="color: #4e9a06">&quot;0&quot;</span> <span style="color: #c4a000">style=</span><span style="color: #4e9a06">&quot;width:100%;max-width:700px;&quot;</span> <span style="color: #c4a000">height=</span><span style="color: #4e9a06">&quot;800&quot;</span><span style="color: #204a87; font-weight: bold">&gt;&lt;/iframe&gt;</span><br />
+</span></div><br />
+<br />
+Learn more about <a href="../integrate/index.html" class="popup">How to Integrate your online exams</a>.<br />
+<br />
+<br />
+<br />
+<a id="L4"></a><h4>4. Viewing Results</h4>Test Takers will view your results within your Theme as well. They can see Exam results:<br />
+1. Instantly upon completion (If you allow this in the Link settings),<br />
+2. Anytime in the future. (You can receive a private and unique URL for allowing users to see their individual results using our <a href="../api/webhooks/index.html#viewresultsurl" class="popup">Webhooks</a> or <a href="../api/developers/index.html#viewresultsurl" class="popup">API</a>)<br />
+<br />
+<img src="../../img3/user_manual/theme-45.jpg" class="img-shadow" alt="ClassMarker Quiz Maker" /><br />
+<br />
+<br />
+<br />
+<a id="L5"></a><h4>5. Custom Certificates</h4>Add your own logo and colors onto Certificates, and Test takers can download or have Certificates emailed to them.<br />
+<br />
+Learn about <a href="../manual/index.html#certificates" class="popup">Custom Certificates</a>.<br />
+<br />
+<img src="../../img3/user_manual/cert-2.jpg" class="img-shadow" alt="ClassMarker Quiz Maker" /><br />
+<br />
+<h4>Conclusion</h4>Thanks to our customers requests, ClassMarker has been able to make it very easy to white label online exams and keep Test takers on your website for the entire Testing process.<br />
+<br />
+<br />
+Register today for a <a href="../../register/index.html">free quiz maker trial</a> that includes all upgraded features. No credit card details required. Only your thoughts and creativity are needed!<br />
+<br />
+Happy Testing!<br />
+<br />
+<br />
+<a  class="popup" href="../../register/index.html">Register Here</a> to try ClassMarker today!<br />
+<br />
+<strong>Review Related Online Testing Blogs and Tutorials</strong><br />
+<br />
+<a href="../manual/index.html#addnewquestions/">How Do I Add Questions to a Quiz?</a><br />
+<a href="../manual/index.html#results/">How Do I View Quiz Results?</a><br />
+<a href="../manual/index.html#assign">How Do I Assign Quizzes?</a><br />
+<a href="Email-Quiz-results-and-Certificates-to-Test-Takers">How Do I Email Quiz Results?</a>
+			<div class="clearheight"></div>
+			<div class="clearheight"></div>
+			</article>
+			<p><a href="index.html" class="btn btn-create">&lt; Back to Blogs and Tutorials</a></p><hr class="gray"></div>
+<div class="clearheight"></div>
+<div class="clearheight"></div>
+<div class="clearheight"></div>
+
+
+<div class="clearheight"></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="ClassMarker is Award winning 2017" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="ClassMarker is Award winning 2014" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="ClassMarker is Award winning 2011" /></a></div>
+<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="ClassMarker Security" /></div>
+<div class="clearheight5"></div>
+
+
+		</div>
+	</div>
+</div><footer id="footer">
+		<div class="col-full">
+			<ul class="footer-list1">
+				<li><a href="../../index.html">Home</a></li>
+				<li><a href="../index.html">About ClassMarker</a></li>
+				<li><a href="../terms/index.html">Terms</a> / <a href="../privacy/index.html">Privacy</a></li>
+				<li></li>
+				<li><a href="../quiz-features/index.html#online-quiz-security">Security</a></li>
+				<li><a href="index.html">Blog</a></li>
+				<li><a href="../sitemap/index.html">Site map</a></li>
+
+			</ul>
+			<ul class="footer-list2">
+				<li><a href="../manual/index.html">User Manual / Screenshots</a></li>
+				<li><a href="../create-language-tests/index.html">Quiz Language Support</a></li>
+				<li><a href="../docs/index.html">Quiz Maker API</a></li>
+				<li><a href="../partners/index.html">Partners</a> / <a href="../customers/index.html" title="Review Clients">Clients</a></li>
+				<li><a href="../../register/index.html">Register</a></li>
+				<li><a href="../contact-us/index.html">Contact Us</a></li>
+			</ul>
+
+			<div class="footer-content">
+				<div class="social_toolbox">
+					<a href="https://www.facebook.com/classmarker/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit ClassMarker on Facebook"></a>
+					<a class="cm-twitter popup" href="https://twitter.com/classmarker/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit ClassMarker on Twitter"></a>
+					
+				</div>
+				<div class="social_rating">
+					<div>
+						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
+						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
+						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
+						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
+						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
+						<a href="https://www.g2.com/products/classmarker/reviews" class="popup">Rated 4.4 out of 5</a>
+					</div>
+				</div>
+				<h4>
+					<a href="../../index.html">
+						<img alt="Hosted online testing quiz maker" src="../../img3/retina/free-quiz-maker@1x.png" srcset="../../img3/retina/free-quiz-maker@1x.png 1x, ../../img3/retina/free-quiz-maker@2x.png 2x, ../../img3/retina/free-quiz-maker@3x.png 3x" width="156" height="22" >
+						<span>ClassMarker</span>
+					</a>
+				</h4>
+				<p>Copyright &copy; 2006 - 2022 ClassMarker Pty Ltd. All rights reserved.</p>
+			</div>
+		</div>
+	</footer><!-- end footer -->
+
+		<script src="../../js3/jquery-2.2.4.min.js" ></script><script src="../../js3/cmall.js?v=272"></script>
+<script src="../../js3/xbbcode.js?vs=272"></script><script src="../../js3/jquery.slicknav.min.js?v=272"></script>
+<script>$(document).ready(function(){$(function(){$('#menu').slicknav();});});</script>
+		<div id="fb-root"></div>
+	<div class="jqmWindowWide clearHtml" id="obj_video0"></div>
+	<div class="jqmWindowWide clearHtml" id="obj_video4"></div>
+	<div class="jqmWindowWide clearHtml" id="obj_video5"></div>
+		<script>
+			$(document).ready(function(){
+				$('.select-box').customSelect();
+				$('#obj_video0').jqm({ajax: '/misc/tour.rpc.php?id=video0', trigger: '.video0'});
+				$('#obj_video4').jqm({ajax: '/misc/tour.rpc.php?id=video4', trigger: '.video4'});
+				$('#obj_video5').jqm({ajax: '/misc/tour.rpc.php?id=video5', trigger: '.video5'});
+			});
+					</script>
+
+
+<script>
+ka_path = "/ka.php?";
+</script>
+<script>
+(function (i, s, o, g, r, a, m) {
+	i['GoogleAnalyticsObject'] = r;
+	i[r] = i[r] || function () {
+		(i[r].q = i[r].q || []).push(arguments)
+	}, i[r].l = 1 * new Date();
+	a = s.createElement(o),
+		m = s.getElementsByTagName(o)[0];
+	a.async = 1;
+	a.src = g;
+	m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-473958-2', 'auto');
+ga('set', 'anonymizeIp', true);
+ga('send', 'pageview');
+</script>
+
+</body></html>
