@@ -6,42 +6,42 @@
 <meta name="description" content="How to integrate your online courses and exams - Quiz Maker Blog. free quiz maker to create online exams.">
 <meta name="keywords" content="Free Quiz Maker, quiz maker, online testing, exams, assessments, employment tests, custom exams.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="shortcut icon" href="../../favicon.png">
 
 <link rel="canonical" href="How-to-add-online-exams-to-course-website" >
 <meta property="og:type" content="article" >
-<meta property="article:publisher" content="https://www.facebook.com/classmarker/" >
+<meta property="article:publisher" content="https://www.facebook.com/  Askcamel/" >
 <meta property="og:locale" content="en_US" >
 <meta property="og:title" content="How to integrate your online courses and exams - Quiz Maker Blog" >
 <meta property="og:description" content="How to integrate your online courses and exams - Quiz Maker Blog. free quiz maker to create online exams." >
-<meta property="og:url" content="https://www.classmarker.com/online-testing/blog/How-to-add-online-exams-to-course-website" >
-<meta property="og:site_name" content="ClassMarker Online Quiz Maker" >
-<meta property="og:image" content="https://www.classmarker.com/img3/promo/classmarker_promo_back_1.jpg" >
+<meta property="og:url" content="https://www.  Askcamel.com/online-testing/blog/How-to-add-online-exams-to-course-website" >
+<meta property="og:site_name" content="  Askcamel Online Quiz Maker" >
+<meta property="og:image" content="https://www.  Askcamel.com/img3/promo/  Askcamel_promo_back_1.jpg" >
 <meta property="og:image:width" content="851" >
 <meta property="og:image:height" content="315" >
-<meta property="og:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
+<meta property="og:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
 
 <meta name="twitter:card" content="summary_large_image" >
 <meta name="twitter:description" content="How to integrate your online courses and exams - Quiz Maker Blog. free quiz maker to create online exams." >
 <meta name="twitter:title" content="How to integrate your online courses and exams - Quiz Maker Blog" >
-<meta name="twitter:site" content="@classmarker" >
-<meta name="twitter:image" content="https://www.classmarker.com/img3/promo/twitter_card_promo_back_1.jpg" >
-<meta name="twitter:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
-<meta name="twitter:creator" content="@classmarker" >
+<meta name="twitter:site" content="@  Askcamel" >
+<meta name="twitter:image" content="https://www.  Askcamel.com/img3/promo/twitter_card_promo_back_1.jpg" >
+<meta name="twitter:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
+<meta name="twitter:creator" content="@  Askcamel" >
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ClassMarker",
-  "url": "https://www.classmarker.com",
-  "logo": "https://www.classmarker.com/img3/retina/quiz-maker3x.jpg",
+  "name": "  Askcamel",
+  "url": "https://www.  Askcamel.com",
+  "logo": "https://www.  Askcamel.com/img3/retina/quiz-maker3x.jpg",
   "sameAs": [
-    "https://www.facebook.com/ClassMarker",
-    "https://twitter.com/ClassMarker",
-    "https://www.linkedin.com/company/classmarker-pty-ltd/",
-    "https://www.youtube.com/user/classmarker",
-    "https://www.pinterest.com.au/ClassMarkercom/",
-    "https://www.instagram.com/classmarker/"
+    "https://www.facebook.com/  Askcamel",
+    "https://twitter.com/  Askcamel",
+    "https://www.linkedin.com/company/  Askcamel-pty-ltd/",
+    "https://www.youtube.com/user/  Askcamel",
+    "https://www.pinterest.com.au/  Askcamelcom/",
+    "https://www.instagram.com/  Askcamel/"
   ]
 }
 </script>
@@ -65,9 +65,9 @@
 	    /(2\/)/
 	);
 	var asset_actual_dir = new Array(
-	    'https://0cm.classmarker.com/',
-	    'https://1cm.classmarker.com/',
-	    'https://2cm.classmarker.com/'
+	    'https://0cm.  Askcamel.com/',
+	    'https://1cm.  Askcamel.com/',
+	    'https://2cm.  Askcamel.com/'
 	);
 	</script>
 
@@ -82,8 +82,8 @@
 		<header class="col-full">
 			<div class="h1" itemscope itemtype="http://schema.org/Organization">
 				<a itemprop="url" href="../../index.html">
-					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/quiz-maker1x.jpg" srcset="../../img3/retina/quiz-maker1x.jpg 1x, ../../img3/retina/quiz-maker2x.jpg 2x, ../../img3/retina/quiz-maker3x.jpg 3x" width="205" height="31">
-					<span>ClassMarker Online quiz maker</span>
+					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/logo.png"      width="205" height="51">
+					<span>  Askcamel Online quiz maker</span>
 				</a>
 			</div>
 
@@ -150,22 +150,22 @@
 
 <article><h1>How to integrate your online courses and exams</h1><p class="date">Mon 19th May 2014<span class="f-right"><a href="index.html">&lt; Back to Blogs and Tutorials</a></span></p><div class="dotted"></div>Businesses and Educators have a growing requirement to give exams online, but do not want users going through the distractions of both leaving their website and having to register for yet another website, just to take their online exam. <br />
 <br />
-ClassMarkers easy online quiz maker software provides multiple ways to give your exams online, including the ability to embed your ClassMarker exams seamlessly within your own website, while tracking your websites users and their test results.<br />
+  Askcamels easy online quiz maker software provides multiple ways to give your exams online, including the ability to embed your   Askcamel exams seamlessly within your own website, while tracking your websites users and their test results.<br />
 <br />
 The option we will talk about today is the use of our popular <strong>Links</strong> feature to easily give your exams.<br />
 <br />
-Links (among other options) allows you to give your exams to students or staff members without the need for them to first register with ClassMarker or even know they are taking their online exam using ClassMarkers advanced online testing software. Because ClassMarker allows you to fully brand your online quizzes, students or staff members do not see references to ClassMarker.<br />
+Links (among other options) allows you to give your exams to students or staff members without the need for them to first register with   Askcamel or even know they are taking their online exam using   Askcamels advanced online testing software. Because   Askcamel allows you to fully brand your online quizzes, students or staff members do not see references to   Askcamel.<br />
 <br />
 Lets have a quick look at the steps involved from your Test takers perspective, then we'll see how easy our online quiz solution is to get set up to start testing today.<br />
 <br />
 <strong>Embedded test taker experience:</strong><br />
 <ol><li>Your Test taker will be on your website </li><li>Your website will direct them to the webpage you have embedded your online exam on<br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/home/embed-online-quiz.png" alt="Embed an online quiz in your website or blog" class="img-shadow"></li><li>Your Test taker will start their exam directly in your website. At this point, if you have set a price to Sell your online quiz access, users will be prompted to pay before they can continue. You can also use other <a href="../manual/index.html#accesslists" class="popup">Access Restriction</a> options if required</li><li>After finishing the exam, Test takers can view their results if you allow, as well as download a certificate (and payment receipt if charging for your online exam)</li><li>You can also set a Link in ClassMarker for Test takers to click to continue on to another page on your website, which could be the next Embedded Exam they take or the next section of your Online course</li></ol><br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/home/embed-online-quiz.png" alt="Embed an online quiz in your website or blog" class="img-shadow"></li><li>Your Test taker will start their exam directly in your website. At this point, if you have set a price to Sell your online quiz access, users will be prompted to pay before they can continue. You can also use other <a href="../manual/index.html#accesslists" class="popup">Access Restriction</a> options if required</li><li>After finishing the exam, Test takers can view their results if you allow, as well as download a certificate (and payment receipt if charging for your online exam)</li><li>You can also set a Link in   Askcamel for Test takers to click to continue on to another page on your website, which could be the next Embedded Exam they take or the next section of your Online course</li></ol><br />
 <br />
 <strong>How to embed exams on your website:</strong><br />
-<ol><li>After your <a href="../manual/index.html#createtests" class="popup">Create your online quiz</a> in ClassMarker</li><li><a href="../manual/index.html#assignlinks" class="popup">Assign your quiz</a> via our Links Option to give users access</li><li>Optionally choose to pass user ids from your system to ClassMarker via the Embed code provided by ClassMarker. <br />
-ClassMarker will then save their user id along with their test results which can be imported back into your system. More on our <a href="../integrate/index.html" class="popup">Quiz maker API</a> options</li><li>Or you can simply pass the Test takers name to ClassMarker to track their Test results with</li></ol><br />
-Now Test takers can easily take your online exams directly from your website without the need to register with ClassMarker.<br />
+<ol><li>After your <a href="../manual/index.html#createtests" class="popup">Create your online quiz</a> in   Askcamel</li><li><a href="../manual/index.html#assignlinks" class="popup">Assign your quiz</a> via our Links Option to give users access</li><li>Optionally choose to pass user ids from your system to   Askcamel via the Embed code provided by   Askcamel. <br />
+  Askcamel will then save their user id along with their test results which can be imported back into your system. More on our <a href="../integrate/index.html" class="popup">Quiz maker API</a> options</li><li>Or you can simply pass the Test takers name to   Askcamel to track their Test results with</li></ol><br />
+Now Test takers can easily take your online exams directly from your website without the need to register with   Askcamel.<br />
 <br />
 <a href="../../register/index.html">Register here</a> and start giving online exams today.<br />
 <br />
@@ -184,10 +184,10 @@ Now Test takers can easily take your online exams directly from your website wit
 
 
 <div class="clearheight"></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="ClassMarker is Award winning 2017" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="ClassMarker is Award winning 2014" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="ClassMarker is Award winning 2011" /></a></div>
-<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="ClassMarker Security" /></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="  Askcamel is Award winning 2017" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="  Askcamel is Award winning 2014" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="  Askcamel is Award winning 2011" /></a></div>
+<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="  Askcamel Security" /></div>
 <div class="clearheight5"></div>
 
 
@@ -197,7 +197,7 @@ Now Test takers can easily take your online exams directly from your website wit
 		<div class="col-full">
 			<ul class="footer-list1">
 				<li><a href="../../index.html">Home</a></li>
-				<li><a href="../index.html">About ClassMarker</a></li>
+				<li><a href="../index.html">About   Askcamel</a></li>
 				<li><a href="../terms/index.html">Terms</a> / <a href="../privacy/index.html">Privacy</a></li>
 				<li></li>
 				<li><a href="../quiz-features/index.html#online-quiz-security">Security</a></li>
@@ -216,8 +216,8 @@ Now Test takers can easily take your online exams directly from your website wit
 
 			<div class="footer-content">
 				<div class="social_toolbox">
-					<a href="https://www.facebook.com/classmarker/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit ClassMarker on Facebook"></a>
-					<a class="cm-twitter popup" href="https://twitter.com/classmarker/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit ClassMarker on Twitter"></a>
+					<a href="https://www.facebook.com/  Askcamel/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit   Askcamel on Facebook"></a>
+					<a class="cm-twitter popup" href="https://twitter.com/  Askcamel/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit   Askcamel on Twitter"></a>
 					
 				</div>
 				<div class="social_rating">
@@ -227,16 +227,16 @@ Now Test takers can easily take your online exams directly from your website wit
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
-						<a href="https://www.g2.com/products/classmarker/reviews" class="popup">Rated 4.4 out of 5</a>
+						<a href="https://www.g2.com/products/  Askcamel/reviews" class="popup">Rated 4.4 out of 5</a>
 					</div>
 				</div>
 				<h4>
 					<a href="../../index.html">
 						<img alt="Hosted online testing quiz maker" src="../../img3/retina/free-quiz-maker@1x.png" srcset="../../img3/retina/free-quiz-maker@1x.png 1x, ../../img3/retina/free-quiz-maker@2x.png 2x, ../../img3/retina/free-quiz-maker@3x.png 3x" width="156" height="22" >
-						<span>ClassMarker</span>
+						<span>  Askcamel</span>
 					</a>
 				</h4>
-				<p>Copyright &copy; 2006 - 2022 ClassMarker Pty Ltd. All rights reserved.</p>
+				<p>Copyright &copy; 2006 - 2022   Askcamel Pty Ltd. All rights reserved.</p>
 			</div>
 		</div>
 	</footer><!-- end footer -->

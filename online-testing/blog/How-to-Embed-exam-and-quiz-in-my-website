@@ -6,42 +6,42 @@
 <meta name="description" content="How to Embed Exams and Quizzes on your Website - Quiz Maker Blog. free quiz maker to create online exams.">
 <meta name="keywords" content="Free Quiz Maker, quiz maker, online testing, exams, assessments, employment tests, custom exams.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="shortcut icon" href="../../favicon.png">
 
 <link rel="canonical" href="How-to-Embed-exam-and-quiz-in-my-website" >
 <meta property="og:type" content="article" >
-<meta property="article:publisher" content="https://www.facebook.com/classmarker/" >
+<meta property="article:publisher" content="https://www.facebook.com/  Askcamel/" >
 <meta property="og:locale" content="en_US" >
 <meta property="og:title" content="How to Embed Exams and Quizzes on your Website - Quiz Maker Blog" >
 <meta property="og:description" content="How to Embed Exams and Quizzes on your Website - Quiz Maker Blog. free quiz maker to create online exams." >
-<meta property="og:url" content="https://www.classmarker.com/online-testing/blog/How-to-Embed-exam-and-quiz-in-my-website" >
-<meta property="og:site_name" content="ClassMarker Online Quiz Maker" >
-<meta property="og:image" content="https://www.classmarker.com/img3/promo/classmarker_promo_back_1.jpg" >
+<meta property="og:url" content="https://www.  Askcamel.com/online-testing/blog/How-to-Embed-exam-and-quiz-in-my-website" >
+<meta property="og:site_name" content="  Askcamel Online Quiz Maker" >
+<meta property="og:image" content="https://www.  Askcamel.com/img3/promo/  Askcamel_promo_back_1.jpg" >
 <meta property="og:image:width" content="851" >
 <meta property="og:image:height" content="315" >
-<meta property="og:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
+<meta property="og:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
 
 <meta name="twitter:card" content="summary_large_image" >
 <meta name="twitter:description" content="How to Embed Exams and Quizzes on your Website - Quiz Maker Blog. free quiz maker to create online exams." >
 <meta name="twitter:title" content="How to Embed Exams and Quizzes on your Website - Quiz Maker Blog" >
-<meta name="twitter:site" content="@classmarker" >
-<meta name="twitter:image" content="https://www.classmarker.com/img3/promo/twitter_card_promo_back_1.jpg" >
-<meta name="twitter:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
-<meta name="twitter:creator" content="@classmarker" >
+<meta name="twitter:site" content="@  Askcamel" >
+<meta name="twitter:image" content="https://www.  Askcamel.com/img3/promo/twitter_card_promo_back_1.jpg" >
+<meta name="twitter:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
+<meta name="twitter:creator" content="@  Askcamel" >
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ClassMarker",
-  "url": "https://www.classmarker.com",
-  "logo": "https://www.classmarker.com/img3/retina/quiz-maker3x.jpg",
+  "name": "  Askcamel",
+  "url": "https://www.  Askcamel.com",
+  "logo": "https://www.  Askcamel.com/img3/retina/quiz-maker3x.jpg",
   "sameAs": [
-    "https://www.facebook.com/ClassMarker",
-    "https://twitter.com/ClassMarker",
-    "https://www.linkedin.com/company/classmarker-pty-ltd/",
-    "https://www.youtube.com/user/classmarker",
-    "https://www.pinterest.com.au/ClassMarkercom/",
-    "https://www.instagram.com/classmarker/"
+    "https://www.facebook.com/  Askcamel",
+    "https://twitter.com/  Askcamel",
+    "https://www.linkedin.com/company/  Askcamel-pty-ltd/",
+    "https://www.youtube.com/user/  Askcamel",
+    "https://www.pinterest.com.au/  Askcamelcom/",
+    "https://www.instagram.com/  Askcamel/"
   ]
 }
 </script>
@@ -65,9 +65,9 @@
 	    /(2\/)/
 	);
 	var asset_actual_dir = new Array(
-	    'https://0cm.classmarker.com/',
-	    'https://1cm.classmarker.com/',
-	    'https://2cm.classmarker.com/'
+	    'https://0cm.  Askcamel.com/',
+	    'https://1cm.  Askcamel.com/',
+	    'https://2cm.  Askcamel.com/'
 	);
 	</script>
 
@@ -82,8 +82,8 @@
 		<header class="col-full">
 			<div class="h1" itemscope itemtype="http://schema.org/Organization">
 				<a itemprop="url" href="../../index.html">
-					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/quiz-maker1x.jpg" srcset="../../img3/retina/quiz-maker1x.jpg 1x, ../../img3/retina/quiz-maker2x.jpg 2x, ../../img3/retina/quiz-maker3x.jpg 3x" width="205" height="31">
-					<span>ClassMarker Online quiz maker</span>
+					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/logo.png"      width="205" height="51">
+					<span>  Askcamel Online quiz maker</span>
 				</a>
 			</div>
 
@@ -148,39 +148,39 @@
 
 
 
-<article><h1>How to Embed Exams and Quizzes on your Website</h1><p class="date">Mon 16th Feb 2015<span class="f-right"><a href="index.html">&lt; Back to Blogs and Tutorials</a></span></p><div class="dotted"></div>We receive a lot of questions on how to embed Exams within websites, so today we will explain your options for embedding your ClassMarker exams and quizzes in your own wesbite.<br />
+<article><h1>How to Embed Exams and Quizzes on your Website</h1><p class="date">Mon 16th Feb 2015<span class="f-right"><a href="index.html">&lt; Back to Blogs and Tutorials</a></span></p><div class="dotted"></div>We receive a lot of questions on how to embed Exams within websites, so today we will explain your options for embedding your   Askcamel exams and quizzes in your own wesbite.<br />
 <br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/embed-online-quiz.png"  class="img-shadow" alt="How to Embed Exam on website"/><br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/embed-online-quiz.png"  class="img-shadow" alt="How to Embed Exam on website"/><br />
 Let's first explain you have two options for <a href="../embedded-quizzes/index.html" class="popup">giving your online exams</a> which are:<br />
 <ol><li>Assigning to <strong>Groups</strong> for registered users to take</li><li>Create a direct <strong>Link</strong> to your exam (which allows embedding)</li></ol>When you want to embed exams in your website, you will use the <strong>Links</strong> option.<br />
 <br />
 <strong>Some advantages of using Links to give your exams are:</strong><br />
-<ul><li>Embed exams in your website</li><li>No Test taker Pre-registration required</li><li>Full <a href="../manual/index.html#accesslists" class="popup">access control for exams</a></li><li>Remove ClassMarker Branding</li></ul><br />
+<ul><li>Embed exams in your website</li><li>No Test taker Pre-registration required</li><li>Full <a href="../manual/index.html#accesslists" class="popup">access control for exams</a></li><li>Remove   Askcamel Branding</li></ul><br />
 When you create a Link for your exam, you are given 3 options for giving access to your exam.<br />
 <br />
 <ul><li>Email link to Test-Takers</li><li>Add a link on your website</li><li>Embed test into your website</li></ul><br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/embed_1.png" class="img-shadow" alt="How to Test on website"/><br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/embed_1.png" class="img-shadow" alt="How to Test on website"/><br />
 Let's look at these 3 options closer.<br />
 <br />
 <strong>Option 1: Email link to test-takers</strong><br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/embed_2.png" class="img-shadow" alt="How to Embed Quiz on website"/>Use this option when:<br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/embed_2.png" class="img-shadow" alt="How to Embed Quiz on website"/>Use this option when:<br />
 <ul><li>Emailing the link to test-takers</li><li>Posting a link to FaceBook, Twitter</li><li>If using a blog or content management system that will create the HTML link for you.</li></ul><br />
 <br />
 <strong>Option 2: Add a link on your website</strong><br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/embed_3.png" class="img-shadow" alt="How to Embed Exam on website"/>Use this option when:<br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/embed_3.png" class="img-shadow" alt="How to Embed Exam on website"/>Use this option when:<br />
 <ul><li>You want Test takers to simply click a link from your website to start the Test.<br />
 <i>Please Note:</i> Some content management systems will not require this full HTML code. If this is the case, you will then use first option above 'Email link to Test takers'.</li></ul><br />
 <br />
 <strong>Option 3: Embed test into your website</strong><br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/embed_4.png" class="img-shadow" alt="How to Embed Quiz on website"/>Use this option when:<br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/embed_4.png" class="img-shadow" alt="How to Embed Quiz on website"/>Use this option when:<br />
 <ul><li>When you want to embed the test directly into a web page.<br />
 <strong>Important Note:</strong> You can embed as many tests as you like, however you can only embed one test per web page.</li></ul><br />
-When embedding tests in your website, Test takers do not leave your webiste, they will both answer their questions and can view their results (if you allow) directly on your website without going to ClassMarker.<br />
+When embedding tests in your website, Test takers do not leave your webiste, they will both answer their questions and can view their results (if you allow) directly on your website without going to   Askcamel.<br />
 <br />
 <strong>If you are having issues, here are some trouble shooting tips:</strong><br />
 <br />
 <ul><li>iFrame: Make sure that your website allows iFrame embedding. If you are using a content<br />
-management system for example, you may need to ask your web developer which option to use because the system may not allow iFrame embedding.</li><li>Test width: The maximum test width is 700px, however you can edit the iFrame code so the height and widths are larger then what is set in the code. This can give you less scroll bars on the page if they appear around your Exam.</li><li>HTTPS: If your website is HTTPS: make sure the ClassMarker exam link inside your iFrame starts with HTTPS://</li><li>If using a Content Management System: Try using the 'Email link to test-takers' link, rather then the HTML link.</li></ul><br />
+management system for example, you may need to ask your web developer which option to use because the system may not allow iFrame embedding.</li><li>Test width: The maximum test width is 700px, however you can edit the iFrame code so the height and widths are larger then what is set in the code. This can give you less scroll bars on the page if they appear around your Exam.</li><li>HTTPS: If your website is HTTPS: make sure the   Askcamel exam link inside your iFrame starts with HTTPS://</li><li>If using a Content Management System: Try using the 'Email link to test-takers' link, rather then the HTML link.</li></ul><br />
 Other features you may be interested in when assigning your tests via Links:<br />
 <br />
 <ul><li>Brand your tests with your own logos: <a href="../manual/index.html#themes" class="popup">Branding your Tests with Themes</a></li><li>Use an Access List to ensure an absolute number of attempts: <a href="../manual/index.html#accesslists" class="popup">Access Lists</a></li></ul><br />
@@ -206,10 +206,10 @@ Happy Testing!<br />
 
 
 <div class="clearheight"></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="ClassMarker is Award winning 2017" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="ClassMarker is Award winning 2014" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="ClassMarker is Award winning 2011" /></a></div>
-<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="ClassMarker Security" /></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="  Askcamel is Award winning 2017" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="  Askcamel is Award winning 2014" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="  Askcamel is Award winning 2011" /></a></div>
+<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="  Askcamel Security" /></div>
 <div class="clearheight5"></div>
 
 
@@ -219,7 +219,7 @@ Happy Testing!<br />
 		<div class="col-full">
 			<ul class="footer-list1">
 				<li><a href="../../index.html">Home</a></li>
-				<li><a href="../index.html">About ClassMarker</a></li>
+				<li><a href="../index.html">About   Askcamel</a></li>
 				<li><a href="../terms/index.html">Terms</a> / <a href="../privacy/index.html">Privacy</a></li>
 				<li></li>
 				<li><a href="../quiz-features/index.html#online-quiz-security">Security</a></li>
@@ -238,8 +238,8 @@ Happy Testing!<br />
 
 			<div class="footer-content">
 				<div class="social_toolbox">
-					<a href="https://www.facebook.com/classmarker/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit ClassMarker on Facebook"></a>
-					<a class="cm-twitter popup" href="https://twitter.com/classmarker/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit ClassMarker on Twitter"></a>
+					<a href="https://www.facebook.com/  Askcamel/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit   Askcamel on Facebook"></a>
+					<a class="cm-twitter popup" href="https://twitter.com/  Askcamel/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit   Askcamel on Twitter"></a>
 					
 				</div>
 				<div class="social_rating">
@@ -249,16 +249,16 @@ Happy Testing!<br />
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
-						<a href="https://www.g2.com/products/classmarker/reviews" class="popup">Rated 4.4 out of 5</a>
+						<a href="https://www.g2.com/products/  Askcamel/reviews" class="popup">Rated 4.4 out of 5</a>
 					</div>
 				</div>
 				<h4>
 					<a href="../../index.html">
 						<img alt="Hosted online testing quiz maker" src="../../img3/retina/free-quiz-maker@1x.png" srcset="../../img3/retina/free-quiz-maker@1x.png 1x, ../../img3/retina/free-quiz-maker@2x.png 2x, ../../img3/retina/free-quiz-maker@3x.png 3x" width="156" height="22" >
-						<span>ClassMarker</span>
+						<span>  Askcamel</span>
 					</a>
 				</h4>
-				<p>Copyright &copy; 2006 - 2022 ClassMarker Pty Ltd. All rights reserved.</p>
+				<p>Copyright &copy; 2006 - 2022   Askcamel Pty Ltd. All rights reserved.</p>
 			</div>
 		</div>
 	</footer><!-- end footer -->

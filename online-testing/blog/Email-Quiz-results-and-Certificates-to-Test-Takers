@@ -6,42 +6,42 @@
 <meta name="description" content="Email Quiz Results & Certificates - Quiz Maker Blog. free quiz maker to create online exams.">
 <meta name="keywords" content="Free Quiz Maker, quiz maker, online testing, exams, assessments, employment tests, custom exams.">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="../../favicon.ico">
+<link rel="shortcut icon" href="../../favicon.png">
 
 <link rel="canonical" href="Email-Quiz-results-and-Certificates-to-Test-Takers" >
 <meta property="og:type" content="article" >
-<meta property="article:publisher" content="https://www.facebook.com/classmarker/" >
+<meta property="article:publisher" content="https://www.facebook.com/  Askcamel/" >
 <meta property="og:locale" content="en_US" >
 <meta property="og:title" content="Email Quiz Results & Certificates - Quiz Maker Blog" >
 <meta property="og:description" content="Email Quiz Results & Certificates - Quiz Maker Blog. free quiz maker to create online exams." >
-<meta property="og:url" content="https://www.classmarker.com/online-testing/blog/Email-Quiz-results-and-Certificates-to-Test-Takers" >
-<meta property="og:site_name" content="ClassMarker Online Quiz Maker" >
-<meta property="og:image" content="https://www.classmarker.com/img3/promo/classmarker_promo_back_1.jpg" >
+<meta property="og:url" content="https://www.  Askcamel.com/online-testing/blog/Email-Quiz-results-and-Certificates-to-Test-Takers" >
+<meta property="og:site_name" content="  Askcamel Online Quiz Maker" >
+<meta property="og:image" content="https://www.  Askcamel.com/img3/promo/  Askcamel_promo_back_1.jpg" >
 <meta property="og:image:width" content="851" >
 <meta property="og:image:height" content="315" >
-<meta property="og:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
+<meta property="og:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
 
 <meta name="twitter:card" content="summary_large_image" >
 <meta name="twitter:description" content="Email Quiz Results & Certificates - Quiz Maker Blog. free quiz maker to create online exams." >
 <meta name="twitter:title" content="Email Quiz Results & Certificates - Quiz Maker Blog" >
-<meta name="twitter:site" content="@classmarker" >
-<meta name="twitter:image" content="https://www.classmarker.com/img3/promo/twitter_card_promo_back_1.jpg" >
-<meta name="twitter:image:alt" content="ClassMarker.com image of a lady taking an online exam" >
-<meta name="twitter:creator" content="@classmarker" >
+<meta name="twitter:site" content="@  Askcamel" >
+<meta name="twitter:image" content="https://www.  Askcamel.com/img3/promo/twitter_card_promo_back_1.jpg" >
+<meta name="twitter:image:alt" content="  Askcamel.com image of a lady taking an online exam" >
+<meta name="twitter:creator" content="@  Askcamel" >
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "Organization",
-  "name": "ClassMarker",
-  "url": "https://www.classmarker.com",
-  "logo": "https://www.classmarker.com/img3/retina/quiz-maker3x.jpg",
+  "name": "  Askcamel",
+  "url": "https://www.  Askcamel.com",
+  "logo": "https://www.  Askcamel.com/img3/retina/quiz-maker3x.jpg",
   "sameAs": [
-    "https://www.facebook.com/ClassMarker",
-    "https://twitter.com/ClassMarker",
-    "https://www.linkedin.com/company/classmarker-pty-ltd/",
-    "https://www.youtube.com/user/classmarker",
-    "https://www.pinterest.com.au/ClassMarkercom/",
-    "https://www.instagram.com/classmarker/"
+    "https://www.facebook.com/  Askcamel",
+    "https://twitter.com/  Askcamel",
+    "https://www.linkedin.com/company/  Askcamel-pty-ltd/",
+    "https://www.youtube.com/user/  Askcamel",
+    "https://www.pinterest.com.au/  Askcamelcom/",
+    "https://www.instagram.com/  Askcamel/"
   ]
 }
 </script>
@@ -65,9 +65,9 @@
 	    /(2\/)/
 	);
 	var asset_actual_dir = new Array(
-	    'https://0cm.classmarker.com/',
-	    'https://1cm.classmarker.com/',
-	    'https://2cm.classmarker.com/'
+	    'https://0cm.  Askcamel.com/',
+	    'https://1cm.  Askcamel.com/',
+	    'https://2cm.  Askcamel.com/'
 	);
 	</script>
 
@@ -82,8 +82,8 @@
 		<header class="col-full">
 			<div class="h1" itemscope itemtype="http://schema.org/Organization">
 				<a itemprop="url" href="../../index.html">
-					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/quiz-maker1x.jpg" srcset="../../img3/retina/quiz-maker1x.jpg 1x, ../../img3/retina/quiz-maker2x.jpg 2x, ../../img3/retina/quiz-maker3x.jpg 3x" width="205" height="31">
-					<span>ClassMarker Online quiz maker</span>
+					<img itemprop="logo" alt="Quiz Maker" src="../../img3/retina/logo.png"      width="205" height="51">
+					<span>  Askcamel Online quiz maker</span>
 				</a>
 			</div>
 
@@ -153,8 +153,8 @@
 Lets have a look at how to email quiz results to Test takers:<br />
 <br />
 <ul><li>When <u>assigning a test</u>, or editing existing assigned tests, you can set to have results emailed for future test-takers. If you have a certificate available to download, these results will also include the certificate download link.<br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/email_results_1.png" class="img-shadow" alt="ClassMarker online testing" /></li><li>On existing <u>individual results pages</u>, you can select to send test-takers their results manually, which will include the certificate link (as long as an email address is saved for the test-taker).<br />
-<img src="https://s3.amazonaws.com/img.classmarker.com/b/img/blog/email_results_2.png" class="img-shadow" alt="ClassMarker online testing" /><i>Please Note: Registered students need to have an email address registered to their account, and, tests assigned via Links need to choose the option to save the Test takers email, in order to receive the test results.</i></li><li><i>Send certificate download links in results:</i> Certificate links will be included in emails if they are set, so users can download them. If they are set to only display on passing, then they will only be in the email if they pass their quiz.</li><li><i>Send results from old and new tests:</i> You can go in and manually send results from old tests via the results pages of those tests as well - so old and new test results can be sent out.</li></ul><br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/email_results_1.png" class="img-shadow" alt="  Askcamel online testing" /></li><li>On existing <u>individual results pages</u>, you can select to send test-takers their results manually, which will include the certificate link (as long as an email address is saved for the test-taker).<br />
+<img src="https://s3.amazonaws.com/img.  Askcamel.com/b/img/blog/email_results_2.png" class="img-shadow" alt="  Askcamel online testing" /><i>Please Note: Registered students need to have an email address registered to their account, and, tests assigned via Links need to choose the option to save the Test takers email, in order to receive the test results.</i></li><li><i>Send certificate download links in results:</i> Certificate links will be included in emails if they are set, so users can download them. If they are set to only display on passing, then they will only be in the email if they pass their quiz.</li><li><i>Send results from old and new tests:</i> You can go in and manually send results from old tests via the results pages of those tests as well - so old and new test results can be sent out.</li></ul><br />
 <br />
 <a href="../../register/index.html">Register here</a> and start testing today.<br />
 <br />
@@ -173,10 +173,10 @@ Lets have a look at how to email quiz results to Test takers:<br />
 
 
 <div class="clearheight"></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="ClassMarker is Award winning 2017" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="ClassMarker is Award winning 2014" /></a></div>
-<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="ClassMarker is Award winning 2011" /></a></div>
-<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="ClassMarker Security" /></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/winner-color-2017.png" alt="  Askcamel is Award winning 2017" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website-2014.jpg" alt="  Askcamel is Award winning 2014" /></a></div>
+<div class="awards-logo"><a href="../award-winning/index.html"><img src="../../img3/home/the-best-online-testing-website.jpg" alt="  Askcamel is Award winning 2011" /></a></div>
+<div class="awards-logo"><img class="security2" src="../../img3/home/security2.png" alt="  Askcamel Security" /></div>
 <div class="clearheight5"></div>
 
 
@@ -186,7 +186,7 @@ Lets have a look at how to email quiz results to Test takers:<br />
 		<div class="col-full">
 			<ul class="footer-list1">
 				<li><a href="../../index.html">Home</a></li>
-				<li><a href="../index.html">About ClassMarker</a></li>
+				<li><a href="../index.html">About   Askcamel</a></li>
 				<li><a href="../terms/index.html">Terms</a> / <a href="../privacy/index.html">Privacy</a></li>
 				<li></li>
 				<li><a href="../quiz-features/index.html#online-quiz-security">Security</a></li>
@@ -205,8 +205,8 @@ Lets have a look at how to email quiz results to Test takers:<br />
 
 			<div class="footer-content">
 				<div class="social_toolbox">
-					<a href="https://www.facebook.com/classmarker/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit ClassMarker on Facebook"></a>
-					<a class="cm-twitter popup" href="https://twitter.com/classmarker/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit ClassMarker on Twitter"></a>
+					<a href="https://www.facebook.com/  Askcamel/" class="popup"><img src="../../img3/icons/facebook_x32.png" height="24" width="24" alt="Visit   Askcamel on Facebook"></a>
+					<a class="cm-twitter popup" href="https://twitter.com/  Askcamel/"><img src="../../img3/icons/twitter_x32.png" height="24" width="24" alt="Visit   Askcamel on Twitter"></a>
 					
 				</div>
 				<div class="social_rating">
@@ -216,16 +216,16 @@ Lets have a look at how to email quiz results to Test takers:<br />
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
 						<img alt="Hosted online testing quiz maker" src="../../img3/home/rating-full.png" width="16" height="16" >
-						<a href="https://www.g2.com/products/classmarker/reviews" class="popup">Rated 4.4 out of 5</a>
+						<a href="https://www.g2.com/products/  Askcamel/reviews" class="popup">Rated 4.4 out of 5</a>
 					</div>
 				</div>
 				<h4>
 					<a href="../../index.html">
 						<img alt="Hosted online testing quiz maker" src="../../img3/retina/free-quiz-maker@1x.png" srcset="../../img3/retina/free-quiz-maker@1x.png 1x, ../../img3/retina/free-quiz-maker@2x.png 2x, ../../img3/retina/free-quiz-maker@3x.png 3x" width="156" height="22" >
-						<span>ClassMarker</span>
+						<span>  Askcamel</span>
 					</a>
 				</h4>
-				<p>Copyright &copy; 2006 - 2022 ClassMarker Pty Ltd. All rights reserved.</p>
+				<p>Copyright &copy; 2006 - 2022   Askcamel Pty Ltd. All rights reserved.</p>
 			</div>
 		</div>
 	</footer><!-- end footer -->
